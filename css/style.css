@@ -1,0 +1,67 @@
+body{
+    margin: no;
+    
+}
+h2{
+    padding-top: ;
+    font-size: 50px;
+    font-weight: 700;
+}
+.food-color{
+    color: green;
+}
+.half{
+    width: 50%;
+    padding: 200px;
+    padding-left: 10px;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(green, orange);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.nav-text{
+    padding: 20px;
+}
+.images{
+    margin-top: 80px;
+    margin-right: 70px;
+}
+.about-me{
+    display: flex;
+    margin-right: ;
+    background-image:url(../back.png);
+    background-repeat: no-repeat;
+    
+    
+}
+.about-me-font{
+    font-size: 40px;
+}
+.half-about{
+    margin-top: 100px;
+    width: 50%;
+    padding: 100px;
+    padding-left: 20px;
+}
+.aboutme-images{
+    margin-left: 80px;
+    margin-top: -75px;
+}
+.contact-button{
+    margin-left: 0px;
+}
+.recipies-text{
+    text-align: center;
+    padding-top: 10px;
+
+}
