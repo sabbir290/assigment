@@ -1,5 +1,6 @@
 body{
-    margin: no;
+    margin: 0;
+    width: 100%;
     
 }
 h2{
@@ -64,4 +65,46 @@ a{
     text-align: center;
     padding-top: 10px;
 
+}
+.food-field{
+    width: 100%;
+    padding-left: 100px;
+}
+.food-item{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#food-item{
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 10px 10px 20px 5px lightgrey;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+.food-field{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.half-page-a img{
+    width: 300px;
+    height: 300px;
+}
+.food-field{
+    display: flex;
+    width: 100%;
+}
+.footer-text{
+    text-align: center;
+    margin-top: 100px;
+    color: #F5F5F5;
+    background-color: #181818;
+    height: 258px;
+}
+.food-net{
+    padding-top: 40px;
 }

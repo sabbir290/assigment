@@ -1,0 +1,76 @@
+body{
+    font-family: 'Capriola', sans-serif;
+    margin: 0%;
+}
+section{
+    display: flex;
+    padding-left: 60px;
+}
+.span-tag{
+    color: orangered;
+}
+h2{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 174, 57), rgb(202, 40, 40));
+    padding: 20px 45px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+}
+.half-page-a{
+    padding-left: 5%;
+    text-align: justify;
+    margin-right: 50px;
+}
+.half-page-a img{
+    width: 300px;
+    height: 300px;
+}
+.half-page-b{
+    width: 50%; 
+}
+.half-width{
+    display: flex;
+}
+.half-width-second{
+    display: flex;
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+#align{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.food-item{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.food-field{
+    width: 100%;
+    padding-left: 100px;
+}
+.food-recepie{
+    text-align: center;
+    margin-top:20px ;
+}
+.Food-field{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#food-item{
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 10px 10px 20px 5px lightgrey;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+}
