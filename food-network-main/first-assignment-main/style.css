@@ -1,68 +1,78 @@
 body{
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0%;
 }
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+
 section{
     display: flex;
     padding-left: 60px;
+
 }
-.span-tag{
-    color: orangered;
+.top-header{
+    margin-bottom: 100px;
 }
-h2{
-    font-size: 50px;
+#top-header-content{
+    margin-top: 100px;
 }
-a{
-    text-decoration: none;
-    background-image: linear-gradient(rgb(236, 174, 57), rgb(202, 40, 40));
-    padding: 20px 45px;
-    border-radius: 40px;
-    color: white;
-    font-weight: 700;
-}
-.half-page-a{
-    padding-left: 5%;
-    text-align: justify;
-    margin-right: 50px;
-}
-.half-page-a img{
-    width: 300px;
-    height: 300px;
-}
-.half-page-b{
-    width: 50%; 
-}
+
 .half-width{
-    display: flex;
-}
-.half-width-second{
-    display: flex;
-    background-image: url(image/7.png);
-    background-repeat: no-repeat;
-    margin-top: 100px;
-}
-#align{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-.food-item{
     width: 50%;
-    margin-left: 50px;
+    text-align: left;
     margin-right: 50px;
+    margin-left: 50px;
 }
-.food-field{
+.half-width img{
     width: 100%;
-    padding-left: 100px;
+
 }
+
+#about-image{
+    padding-top: 50px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(228, 72, 25) , rgb(248, 172, 144));
+    padding: 20px 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 8px 3px rgb(230, 230, 230);
+
+}
+
+.about{
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 70px;
+
+}
+
+#about-text{
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+
+
 .food-recepie{
     text-align: center;
     margin-top:20px ;
 }
+
 .Food-field{
     padding-left: 80px;
     padding-right: 80px;
 }
+
 #food-item{
     border: 10px solid;
     border-radius: 20px;
@@ -71,6 +81,51 @@ a{
     text-align: left;
     margin: 20px;
     padding: 10px;
-    width: 300px;
-    height: 400px;
+
+    
+}
+
+.counting{
+    box-shadow: 5px 5px 20px 5px lightgrey;
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+#quality-food{
+    background-image: linear-gradient(rgb(2242, 215, 213) , rgb(249, 235, 234));
+
+    padding-left:50px;
+    padding-right: 50px;
+    border-radius: 5px 150px 5px 150px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    
+}
+
+
+.quality-image{
+    padding-bottom: 95px;
+    margin-top: 50px;
+    size: cover;
+
+}
+
+.quality{
+    margin-top: 100px;
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    text-align: center;
+    padding: 30px 50px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(139, 139, 139);
+
 }
